@@ -7,8 +7,13 @@
 
 	if (browser) {
 		const preferDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+		const localPreference = localStorage.getItem('theme');
 
-		if (preferDarkMode && preferDarkMode.matches) document.body.setAttribute('data-theme', 'dark');
+		console.log(localPreference);
+
+		if ((preferDarkMode && preferDarkMode.matches) || localPreference) {
+			document.body.setAttribute('data-theme', 'dark');
+		}
 	}
 </script>
 

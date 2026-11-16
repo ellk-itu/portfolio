@@ -1,5 +1,12 @@
 <script lang="ts">
+	import { browser } from '$app/env';
+
 	let dark = $state(false);
+
+	if (browser) {
+		dark = document.body.getAttribute('data-theme') === 'dark';
+	}
+
 	$effect(() => {
 		if (dark) {
 			document.body.setAttribute('data-theme', 'dark');
