@@ -5,6 +5,11 @@
 	import Skills from '#lib/components/skills.svelte';
 	import Nav from '#lib/components/nav.svelte';
 	import AboutMe from '#lib/components/aboutMe.svelte';
+	import BlogPosts from '#lib/components/blogPosts.svelte';
+
+	// fetch('https://raw.githubusercontent.com/ellk-itu/portfolio/master/blog/').then((file) =>
+	// 	file.text()
+	// );
 </script>
 
 <main class="px-4">
@@ -16,6 +21,7 @@
 	<Nav />
 	<AboutMe />
 	<Skills />
+	<BlogPosts />
 </main>
 
 <style lang="scss">
