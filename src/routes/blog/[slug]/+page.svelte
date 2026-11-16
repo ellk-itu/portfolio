@@ -3,6 +3,7 @@
 	import type { PageProps } from './$types';
 	import SvelteMarkdown from 'svelte-markdown';
 	import '#lib/styles/defaults.scss';
+	import '#lib/styles/app.css';
 
 	let { params }: PageProps = $props();
 
