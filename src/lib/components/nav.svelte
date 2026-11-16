@@ -11,10 +11,10 @@
 
 <div class="sticky top-0 z-10">
 	<nav class="p-4 my-4">
-		<h4 class="link"><a href="/">ELLIE KULMBAK</a></h4>
+		<h5 class="link"><a href="/">ELLIE KULMBAK</a></h5>
 		<div class="flex-1 justify-end flex gap-4">
-			<h4 class="link"><a href="/about-me">ABOUT ME</a></h4>
-			<h4 class="link"><a href="/projects">PROJECT</a></h4>
+			<h5 class="link"><a href="/about-me">ABOUT ME</a></h5>
+			<h5 class="link"><a href="/projects">PROJECT</a></h5>
 			<button onclick={() => (dark = !dark)}>Lights</button>
 		</div>
 	</nav>

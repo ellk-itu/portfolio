@@ -23,142 +23,153 @@
 	import FlutterIcon from '#lib/assets/icons/Flutter.svg?component';
 </script>
 
-<ul class="skills">
-	<li>
-		<h3>Web</h3>
-		<div class="flex flex-col icons-alt flex-1 gap-1 list">
-			<div>
-				<ViteIcon />
-				<p>Vite</p>
+<div class="min-h-screen flex flex-col justify-center skills">
+	<div class="py-8">
+		<h1>Using modern <br /> design stacks</h1>
+		<h4>What can I say. I’m a gen z developer</h4>
+	</div>
+
+	<ul>
+		<li>
+			<h3>Web</h3>
+			<div class="flex flex-col icons-alt flex-1 gap-1 list">
+				<div>
+					<ViteIcon />
+					<p>Vite</p>
+				</div>
+				<div>
+					<BunIcon />
+					<p>Bun</p>
+				</div>
+				<div>
+					<SvelteIcon />
+					<p>Svelte</p>
+				</div>
+				<div>
+					<FireBaseIcon />
+					<p>Firebase</p>
+				</div>
+				<div>
+					<TailWindIcon />
+					<p>Tailwindcss</p>
+				</div>
 			</div>
-			<div>
-				<BunIcon />
-				<p>Bun</p>
+			<div class="flex flex-col">
+				<h5>Alternatively</h5>
+				<div class="flex alt-icons gap-1">
+					<ReactIcon />
+					<SassIcon />
+					<AWSIcon />
+					<NodeIcon />
+				</div>
 			</div>
-			<div>
-				<SvelteIcon />
-				<p>Svelte</p>
+		</li>
+		<li>
+			<h3>Scripting</h3>
+			<div class="flex flex-col icons-alt flex-1 gap-1 list">
+				<div>
+					<PythonIcon />
+					<p>Vite</p>
+				</div>
+				<div>
+					<UvIcon />
+					<p>Bun</p>
+				</div>
+				<div>
+					<FastAPIIcon />
+					<p>Svelte</p>
+				</div>
+				<div>
+					<FireBaseIcon />
+					<p>Firebase</p>
+				</div>
 			</div>
-			<div>
-				<FireBaseIcon />
-				<p>Firebase</p>
+			<div class="flex flex-col">
+				<h5>Alternatively</h5>
+				<div class="flex alt-icons gap-1">
+					<PyPiIcon />
+					<AWSIcon />
+				</div>
 			</div>
-			<div>
-				<TailWindIcon />
-				<p>Tailwindcss</p>
+		</li>
+		<li>
+			<h3>Server</h3>
+			<div class="flex flex-col icons-alt flex-1 gap-1 list">
+				<div>
+					<RustIcon />
+					<p>Vite</p>
+				</div>
+				<div>
+					<SQLiteIcon />
+					<p>Bun</p>
+				</div>
 			</div>
-		</div>
-		<div class="flex flex-col">
-			<h5>Alternatively</h5>
-			<div class="flex alt-icons gap-1">
-				<ReactIcon />
-				<SassIcon />
-				<AWSIcon />
-				<NodeIcon />
+			<div class="flex flex-col">
+				<h5>Alternatively</h5>
+				<div class="flex alt-icons gap-1">
+					<MongoDBIcon />
+					<MySQLIcon />
+					<CSharpIcon />
+				</div>
 			</div>
-		</div>
-	</li>
-	<li>
-		<h3>Scripting</h3>
-		<div class="flex flex-col icons-alt flex-1 gap-1 list">
-			<div>
-				<PythonIcon />
-				<p>Vite</p>
+		</li>
+		<li>
+			<h3>Hardware</h3>
+			<div class="flex flex-col icons-alt flex-1 gap-1 list">
+				<div>
+					<CPlusPlusIcon />
+					<p>Vite</p>
+				</div>
 			</div>
-			<div>
-				<UvIcon />
-				<p>Bun</p>
+			<div class="flex flex-col">
+				<h5>Alternatively</h5>
+				<div class="flex alt-icons gap-1">
+					<RustIcon />
+					<ArduinoIcon />
+				</div>
 			</div>
-			<div>
-				<FastAPIIcon />
-				<p>Svelte</p>
+		</li>
+		<li>
+			<h3>Phone</h3>
+			<div class="flex flex-col icons-alt flex-1 gap-1 list">
+				<div>
+					<TauriIcon />
+					<p>Vite</p>
+				</div>
 			</div>
-			<div>
-				<FireBaseIcon />
-				<p>Firebase</p>
+			<div class="flex flex-col">
+				<h5>Alternatively</h5>
+				<div class="flex alt-icons gap-1">
+					<FlutterIcon />
+					<ReactIcon />
+				</div>
 			</div>
-		</div>
-		<div class="flex flex-col">
-			<h5>Alternatively</h5>
-			<div class="flex alt-icons gap-1">
-				<PyPiIcon />
-				<AWSIcon />
-			</div>
-		</div>
-	</li>
-	<li>
-		<h3>Server</h3>
-		<div class="flex flex-col icons-alt flex-1 gap-1 list">
-			<div>
-				<RustIcon />
-				<p>Vite</p>
-			</div>
-			<div>
-				<SQLiteIcon />
-				<p>Bun</p>
-			</div>
-		</div>
-		<div class="flex flex-col">
-			<h5>Alternatively</h5>
-			<div class="flex alt-icons gap-1">
-				<MongoDBIcon />
-				<MySQLIcon />
-				<CSharpIcon />
-			</div>
-		</div>
-	</li>
-	<li>
-		<h3>Hardware</h3>
-		<div class="flex flex-col icons-alt flex-1 gap-1 list">
-			<div>
-				<CPlusPlusIcon />
-				<p>Vite</p>
-			</div>
-		</div>
-		<div class="flex flex-col">
-			<h5>Alternatively</h5>
-			<div class="flex alt-icons gap-1">
-				<RustIcon />
-				<ArduinoIcon />
-			</div>
-		</div>
-	</li>
-	<li>
-		<h3>Phone</h3>
-		<div class="flex flex-col icons-alt flex-1 gap-1 list">
-			<div>
-				<TauriIcon />
-				<p>Vite</p>
-			</div>
-		</div>
-		<div class="flex flex-col">
-			<h5>Alternatively</h5>
-			<div class="flex alt-icons gap-1">
-				<FlutterIcon />
-				<ReactIcon />
-			</div>
-		</div>
-	</li>
-</ul>
+		</li>
+	</ul>
+</div>
 
 <style lang="scss">
 	p {
 		font-family: 'BDO Grotesk', Inter, sans-serif;
 	}
 
-	ul.skills {
-		display: flex;
-		width: 100%;
-		flex-wrap: wrap;
+	.skills {
+		padding: max(0px, calc(var(--font-size) * 4 - 2rem));
 
-		li {
-			min-width: fit-content;
+		& ul {
 			display: flex;
-			flex-direction: column;
-			flex-grow: 1;
-			gap: 1rem;
-			padding: 1rem;
-			border-left: 4px solid var(--dark);
+			width: 100%;
+			flex-wrap: wrap;
+
+			li {
+				min-width: fit-content;
+				display: flex;
+				flex-direction: column;
+				flex-grow: 1;
+				gap: 1rem;
+				padding: 1rem;
+				border-left: 4px solid var(--dark);
+			}
 		}
 	}
 
