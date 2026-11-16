@@ -4,6 +4,6 @@ tags:
   - Server
 ---
 
-## Getting files from the repository
+## Using github as a hosting service
 
 First problem is getting all the files
