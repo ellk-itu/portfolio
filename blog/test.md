@@ -1,11 +1,7 @@
-# This is a test
-
 ---
-
 tags:
-
-- CDN, Server
-
+  - CDN
+  - Server
 ---
 
 ## Getting files from the repository
